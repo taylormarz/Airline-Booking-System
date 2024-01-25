@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.shape.Line?>
+
+<Pane xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example._2130asn2_gurney_martin_sylvester.Amanda_Taylor_Ethan_UserBarController">
+
+    <!-- USER PROFILE BAR -->
+    <!-- style = inline css -->
+    <!-- user profile pic -->
+    <Rectangle width="250.0" height="800.0" fill="#151921"/>
+    <Line startX="250" endX="250" endY="800" stroke="#0d121a" strokeWidth="2"/>
+    <ImageView fitWidth="100.0" fitHeight="100.0" layoutX="75.0" layoutY="25.0">
+        <Image url="@img/userProfilePic.png"/>
+    </ImageView>
+
+    <!-- username-->
+    <Label fx:id="nameLabel" layoutX="25.0" prefWidth="200.0" prefHeight="50.0" />
+    <!-- job title-->
+    <Label fx:id="jobLabel" layoutX="25.0" prefWidth="200.0" prefHeight="50.0" />
+
+    <!-- label for Settings menu in user profile bar -->
+    <Label text="Settings:" layoutX="30.0" layoutY="250.0" prefWidth="200.0" prefHeight="50.0">
+        <font>
+            <javafx.scene.text.Font name="Arial" size="14.0"/>
+        </font>
+        <textFill>
+            <Color fx:constant="WHITE"/>
+        </textFill>
+        <style>
+            -fx-font-weight: bold;
+        </style>
+    </Label>
+
+    <!-- button for updating username -->
+    <Button fx:id="updateNameButton" onAction="#handleUpdateNameButton" layoutX="25.0" prefWidth="200.0" style="-fx-background-color: #151921;
+    -fx-text-fill: #a8a8a8; -fx-font-size: 12; -fx-alignment: baseline-left;"/>
+    <!-- button for updating job title -->
+    <Button fx:id="updateTitleButton" onAction="#handleUpdateTitleButton" layoutX="25.0" prefWidth="200.0" style="-fx-background-color: #151921;
+    -fx-text-fill: #a8a8a8; -fx-font-size: 12; -fx-alignment: baseline-left;"/>
+    <!-- button for changing password -->
+    <Button fx:id="changePasswordButton" onAction="#handleUpdatePasswordButton" layoutX="25.0" prefWidth="200.0" style="-fx-background-color: #151921;
+    -fx-text-fill: #a8a8a8; -fx-font-size: 12; -fx-alignment: baseline-left;"/>
+    <!-- button for exiting application -->
+    <Button fx:id="exitButton" onAction="#onExitButtonClick" layoutX="25.0" prefWidth="200.0" style="-fx-background-color: #0c5061;
+    -fx-text-fill: #ffffff; -fx-font-size: 14;"/>
+</Pane>
