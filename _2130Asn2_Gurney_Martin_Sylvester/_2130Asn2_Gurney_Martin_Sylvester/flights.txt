@@ -1,3 +1,0 @@
-6007,2024-02-26,England,Dubai,0,350
-1256,2024-01-15,Toronto,India,0,375
-8007,2024-04-17,Iceland,Ottawa,0,2
