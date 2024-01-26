@@ -1,9 +1,5 @@
-       Title:  GBC Airlines Booking System - GUI
- Course Code:  COMP2130
-Submitted To:  Mohammad Kiani
-Group Number:  Group 13
-     Authors:  Amanda Gurney,  Taylor Martin,  Ethan Sylvester
- Student IDs:  101443253,      100849882,      101479568
+Title:  GBC Airlines Booking System - GUI
+Authors:  Amanda Gurney,  Taylor Martin,  Ethan Sylvester
 
 
 --------------------------------------------------------------------------------------------------------------
